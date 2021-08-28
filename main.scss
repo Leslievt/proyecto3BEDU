@@ -1,0 +1,18 @@
+$primary-color: pink;
+$secondary-color: red;
+
+
+
+$xlg:45px;
+$lg: 30px;
+$md: 20px;
+$xsm: 10px;
+body{
+    background-color: $primary-color;
+}
+p{
+    color: $secondary-color;
+    margin-top: $xlg;
+    font-size: smd;
+    padding-left: $xlg;
+}
