@@ -17,7 +17,9 @@
     z-index: 1030;
     color: hotpink;
 }
-
+.p{
+  font-size: 16px;
+}
 .form-boot{
     width: 50%;
     margin-left: 50px;
@@ -103,7 +105,7 @@ body{
      display: inline;
      list-style: none;
      margin-left: 25px;
-     color:#025157;;
+     color:#5e3f7a;;
  } 
 
  .margin{
@@ -236,13 +238,13 @@ body{
 }
 
 .personal{
-    background-color: #a1d683;
+    background-color: #b765be;
     margin: 0px;
 
 }
 
 .stories{
-    background-color: #a1d683;
+    background-color: #a5649a;
     margin-left: -1%;
     margin-right: -0.5%;
     padding: 5% 15%;
@@ -264,7 +266,7 @@ body{
 
 .overview h3{
     font-size: 50px;
-    color: #025157;
+    color: #3b15e6;
     font-family: 'Muli', sans-serif;
 }
 
@@ -277,7 +279,7 @@ body{
     color: white;
     font-family: 'Muli', sans-serif;
     font-size: 15px;
-    background-color: #025157;
+    background-color: #63309c;
     border: 0;
     border-radius: 5px;
     width: 150px;
@@ -299,7 +301,7 @@ body{
 .cardview h4{
     margin-top: 25px;
     font-size: 15px;
-    color: #025157;
+    color: #cc9fda;
     font-family: 'Muli', sans-serif;
 }
 
@@ -312,7 +314,7 @@ body{
     color: white;
     font-family: 'Muli', sans-serif;
     font-size: 20px;
-    background-color: #025157;
+    background-color: #d689e0;
     border: 0;
     border-radius: 5px;
     width: 200px;
@@ -379,7 +381,7 @@ div .description{
 
 /* Cuadros */
 .features {
-    background-color: #025157;
+    background-color: #d689e0;
     margin-left: -1%;
     margin-right: -0.5%;
     padding: 5% 10%;
@@ -414,7 +416,7 @@ div .description{
   
   .features .feature-art .feature-content h4 {
     font-size: 24px;
-    color: #023047;
+    color: #d689e0;
     font-weight: 400;
   }
   
@@ -442,25 +444,6 @@ div .description{
      width: 150%;
      height: 90%;
  }
-/* Carouse */
-.carousel-content{
-    width: 50%;
-    margin-left: -0.8%;
-    display: grid;
-    grid-template-columns: repeat(2,600px);
-}
-
-.carousel-descripcion{
-    margin-left: 15%;
-    margin-top: 10%;
-    margin-right: -19%;
-    line-height: 25px;
-}
-.carousel-descripcion h3{
-    color: #023047;
-    font-size: 40px;
-    line-height: 80px;
-}
 
  /* Does */
  .titleSection{
@@ -475,18 +458,18 @@ div .description{
 
 .titleSection > h3{
     margin-top: 35px;
-    color:#025157;
+    color:#674f6d;
     font-size: 40px;
     font-family: 'Milo', sans-serif;
     margin-bottom: 0.5%;
 }
 
 .titleSection b{
-    color: #67b54b;
+    color: #79587c;
 }
 
 .titleSection button{
-    background-color: #025157;
+    background-color: #612563;
     color: #fff;
     font-size: 14px;
     border-radius: 5px;
@@ -537,7 +520,7 @@ div .description{
 }
 
 .progress .progress-art h4{
-    color: #025157;
+    color: #97628e;
     font-size: 30px;
     font-family: 'Milo',sans-serif;
     margin-bottom: -70%;
@@ -552,7 +535,7 @@ div .description{
 }
 
 .progress .progress-art a{
-    color: #67b54b;
+    color: #863879;
     font-size: 16px;
     margin-top: -10%;
 }
@@ -613,7 +596,7 @@ div .description{
 
     .form button{
         color: white;
-        background-color: #67b54b;
+        background-color: #1e0f36;
         margin-left: 40%;
         border: 0;
         border-radius: 2px;
@@ -706,7 +689,7 @@ div .description{
     font-weight: 500;
   }
   .blog .process-list .process > div > p {
-    color: #135359;
+    color: #741fa5;
     margin: 0;
   }
   .blog .process-list .process .process-icon {
@@ -751,7 +734,7 @@ div .description{
     margin-bottom: 14px;
   }
   .blog .col .card .card-body .metadata .category {
-    color: #67b54b;
+    color: #662e6d;
   }
   .blog .col .card .card-body .card-text {
     font-style: normal;
@@ -778,19 +761,19 @@ div .description{
     margin-left: 8px;
     font-weight: 600;
     font-size: 14px;
-    color: #4a4a4a;
+    color: #252424;
     position: relative;
   }
   .video-container{
     width: 100%;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content:left;
+    align-items:flex-end;
     flex-direction:column;
   }
   .video-container iframe{
     margin-top: 15px;
-    flex-direction: column;
+    flex-direction:row;
   }
   .text-nav{
     text-decoration:rgb(139, 44, 44);
